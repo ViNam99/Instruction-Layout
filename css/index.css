@@ -54,3 +54,96 @@ body {
     background-color: #FF4F81;
     transition: all 0.5s
 }
+
+
+/* nav */
+
+.nav .navbar-brand .nav__logo i,
+.nav .navbar-brand .nav__logo span {
+    font-size: 3.6rem;
+    letter-spacing: 0.1rem;
+    color: black
+}
+
+.nav .navbar-brand .nav__logo p {
+    text-align: center;
+    font-size: 1rem;
+    color: #FF4F81;
+    letter-spacing: 0.3rem;
+}
+
+.nav__a {
+    color: black;
+    font-weight: bold
+}
+
+.nav a {
+    color: black;
+    font-size: 1.5rem
+}
+
+.nav li {
+    padding: 0 2rem
+}
+
+.nav li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0.2rem;
+    background-color: #FF4F81;
+}
+
+.nav li:hover a {
+    color: #FF4F81;
+    transition: all 0.5s
+}
+
+.nav li:hover::after {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.nav li.active a {
+    color: #FF4F81;
+}
+
+.nav li.active::after {
+    width: 100%;
+}
+
+.nav .navbar-toggler {
+    background-color: black;
+}
+
+.nav .navbar-toggler .fa-bars {
+    color: #FF4F81;
+    font-size: 2rem
+}
+
+.nav__content .nav-item:nth-child(5) .nav__drop {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.nav__content .nav-item:nth-child(5) .nav__drop a {
+    background: none;
+    color: white
+}
+
+.nav__content .nav-item:nth-child(5) .nav__drop a:hover {
+    background: none;
+    color: #FF4F81;
+    transition: all 0.5s
+}
+
+@media screen and (max-width:1200px) {
+    .nav__content {
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .nav__content {
+        background-color: #F8F9FA;
+    }
+}
