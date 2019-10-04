@@ -9,5 +9,48 @@
 html,
 body {
     font-family: 'Work Sans', sans-serif;
-    font-size: 16px;
+    font-size: 10px;
+}
+
+
+/* header */
+
+.header {
+    background-color: #FF4F81;
+    color: white;
+}
+
+.header__left {
+    font-size: 1.4rem
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none
+}
+
+.header__right ul li {
+    padding: 0 0.3rem;
+}
+
+.header__right i {
+    background-color: #333;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem
+}
+
+.header__right i:hover {
+    border: 0.1rem solid white;
+    background-color: #FF4F81;
+    transition: all 0.5s
 }
