@@ -280,6 +280,86 @@ body {
 }
 
 
+/* stats */
+
+.stats {
+    text-align: center;
+    background-image: url("../img/g1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 45rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin-top: 8.5rem
+}
+
+.bg__black {
+    width: 100%;
+    height: 45rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.line__stats {
+    width: 8rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+.stats__wrapper {
+    margin: auto
+}
+
+.stats__wrapper h2 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 4rem;
+    margin-bottom: 1.9rem;
+    text-align: center;
+    color: #ff4f81;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.stats__wrapper p {
+    display: block;
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+}
+
+.stats__content {
+    margin-top: 5rem
+}
+
+.stats__items i {
+    font-size: 4rem;
+    margin-bottom: 2rem
+}
+
+.stats__items h3 {
+    color: #ff4f81;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.stats__items p {
+    font-size: 4.5rem;
+}
+
+
 /* MEDIA */
 
 @media screen and (max-width:1200px) {
