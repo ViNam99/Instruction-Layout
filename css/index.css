@@ -589,6 +589,104 @@ body {
 }
 
 
+/* footer */
+
+.footer {
+    background-color: #141415;
+    color: #EAEAEB;
+    display: flex;
+    align-items: center
+}
+
+.footer__content {
+    margin-top: 3rem
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none
+}
+
+.footer__items h2,
+.footer__sign h2 {
+    color: #FF4F81;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem
+}
+
+.footer__items i {
+    font-size: 1.5rem;
+    margin-right: 1rem
+}
+
+.footer__news i {
+    color: #ff4f81
+}
+
+.footer__items p,
+.footer__items a,
+.footer__items span {
+    font-size: 1.5rem;
+    color: #999999;
+    transition: all 0.5s;
+}
+
+.footer__items a:hover {
+    color: white
+}
+
+.footer__items li {
+    margin-top: 1rem
+}
+
+.footer__contact i {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #6b6b6b;
+    text-align: center;
+    line-height: 3rem
+}
+
+.footer__sign {
+    display: flex
+}
+
+.btn__footer {
+    padding: 1.5rem 0;
+    background: #FF4F81;
+    color: white;
+    width: 95%;
+    font-size: 1.5rem;
+    transition: all 0.5s
+}
+
+.btn__footer:hover {
+    background-color: #ec1955;
+    color: white
+}
+
+.footer__txt {
+    padding: 2.5rem 0.5rem;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.footer__w3s {
+    background-color: #0F0F10;
+    height: 4rem;
+    margin-top: 2rem
+}
+
+.footer__w3s p {
+    font-size: 1.5rem;
+    line-height: 4rem
+}
+
+
 /* MEDIA */
 
 @media screen and (max-width:1200px) {
